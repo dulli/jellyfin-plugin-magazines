@@ -1,0 +1,25 @@
+---
+name: "Magazines"
+guid: "fa22e404-cc37-4977-8e44-378f27b45d54"
+version: 9
+targetAbi: "10.8.3.0"
+framework: "net6.0"
+owner: "jellyfin"
+overview: "Manage your magazines"
+description: >
+  Supports several different metadata providers and options for organizing your collection.
+
+category: "Metadata"
+artifacts:
+  - "Jellyfin.Plugin.Magazines.dll"
+changelog: |2-
+  ### Code or Repo Maintenance ###
+  - Add development setup for Visual Studio Code (#64) @MinecraftPlaye
+  - Use JsonSerializer.Deserialize overload that accepts a string (#65) @Bond-009
+
+  ### Dependency updates ###
+  - chore(deps): update dependency sharpcompress to v0.32.2 (#62) @renovate
+  - chore(deps): update dependency sharpcompress to v0.32.0 (#61) @renovate
+
+  ### CI & build changes ###
+  - fix: meta ci workflows (#58) @h1dden-da3m0n
